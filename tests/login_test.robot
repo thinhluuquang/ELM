@@ -9,7 +9,7 @@ Valid Login
     Maximize Browser Window
     Sleep    10
     Login With Credentials    ${VALID_USER}    ${VALID_PASSWORD}
-    Sleep    2s
+    Sleep    6
     Page Should Not Contain    ${ERROR_MESSAGE}
     [Teardown]    Close Browser
 
