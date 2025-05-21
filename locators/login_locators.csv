@@ -1,0 +1,5 @@
+name,xpath
+username,//input[@name='email']
+password,//input[@name='password']
+login_button,//button[contains(.,'Đăng nhập')]
+error_message,//div[contains(@class,'ant-notification-notice-message')]
